@@ -34,7 +34,30 @@ iframe {
     margin: 20px auto;
   }
   
-
+  .artifact {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 40px;
+  }
+  
+  /* Shrink iframe a bit to make room for text */
+  .artifact iframe {
+    width: 45%;
+    max-width: 400px;
+    height: 600px;
+  }
+  
+  /* Align the paragraph on the right */
+  .artifact p {
+    flex: 1;
+    font-size: 1.1em;
+    margin: 0;
+    padding-top: 10px;
+    color: #333;
+  }
+  
 /* Responsive tweaks */
 @media (max-width: 768px) {
     iframe {
@@ -49,3 +72,21 @@ iframe {
         font-size: 1em;
     }
 }
+
+@media (max-width: 768px) {
+    .artifact {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .artifact iframe {
+      width: 90%;
+      height: 400px;
+    }
+  
+    .artifact p {
+      padding: 10px 0;
+      text-align: center;
+    }
+  }
+  
