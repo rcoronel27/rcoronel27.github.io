@@ -1,6 +1,6 @@
 /* Apply a consistent font and basic spacing */
 body {
-    font-family: sans-serif;
+    font-family: 'Montserrat';
     line-height: 1.6;
     margin: 0;
     padding-left: 15rem;
@@ -9,6 +9,8 @@ body {
     background-color: #ffffe3; /* white background */
     color: #333;
 }
+
+
 .header h2 {
   display: flex;
   justify-content: space-between;
