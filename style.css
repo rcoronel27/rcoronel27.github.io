@@ -1,6 +1,6 @@
 /* Apply a consistent font and basic spacing */
 body {
-    font-family: 'Montserrat';
+    font-family: 'Montserrat', Verdana;
     line-height: 1.6;
     margin: 0;
     padding-left: 15rem;
